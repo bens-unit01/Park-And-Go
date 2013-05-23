@@ -1,0 +1,33 @@
+<resources>
+
+    <string name="app_name">Park And Go</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_identification">Park And Go</string>
+    <string name="lblNomUtil">Nom d\'utilisateur</string>
+    <string name="txtUtil"></string>
+    <string name="lblPasse">Mot de passe</string>
+    <string name="btOuvrir">Ouvrir session</string>
+    <string name="title_activity_paiement">PaiementActivity</string>
+    <string name="butAnnuler">Annuler</string>
+    <string name="butConfirmer">Confirmer</string>
+    <string name="lblDebut"></string>
+    <string name="lblFin"></string>
+    <string name="title_activity_prolonger">ProlongerActivity</string>
+    <string name="lblDetail">Details de la transaction:</string>
+    <string name="butProlon">Prolonger la durée</string>
+    <string name="title_activity_historique">Historique</string>
+    <string name="lblDateEtHeure">Date et heure</string>
+    <string name="lblNumeroDePlace">Numero de place</string>
+    <string name="lblDateHeure">Date :</string>
+    <string name="lblTarif">Tarif :</string>
+    <string name="lblHeureFin">Heure fin :</string>
+    <string name="lblNumPlace">Numero de place</string>
+    <string name="lblTempesRest">Temps restant</string>
+    <string name="btnAppliquer">Appliquer</string>
+    <string name="lblCout">Coût :</string>
+    <string name="lblHeureDebut">Heure debut:</string>
+    <string name="lblTempsEcoule">Temps écoulé :</string>
+    <string name="lblTempsRestant">Temps restant :</string>
+    <string name="lblDetail2">Détails :</string>
+
+</resources>

@@ -1,0 +1,157 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible" >
+
+    <TextView
+        android:id="@+id/lblNumeroDePlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="34dp"
+        android:text="@string/lblNumPlace" />
+
+    <EditText
+        android:id="@+id/txtNumeroDePlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/lblNumeroDePlace"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TimePicker
+        android:id="@+id/timePicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtNumeroDePlace" />
+
+    <TextView
+        android:id="@+id/lblDateEtHeure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/lblNumeroDePlace"
+        android:layout_marginTop="14dp"
+        android:text="@string/lblDateHeure" />
+
+    <TextView
+        android:id="@+id/lblHeureFin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/lblTarif"
+        android:layout_below="@+id/timePicker1"
+        android:layout_marginTop="50dp"
+        android:text="@string/lblHeureFin" />
+
+    <TextView
+        android:id="@+id/lblTarif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/lblCout"
+        android:layout_below="@+id/lblHeureFin"
+        android:text="@string/lblTarif" />
+
+    <TextView
+        android:id="@+id/txtTarif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtHeureFin"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/lblHeureFin"
+        android:text="txtTarif" />
+
+    <TextView
+        android:id="@+id/txtDateEtHeure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblDateEtHeure"
+        android:layout_alignBottom="@+id/lblDateEtHeure"
+        android:layout_alignLeft="@+id/btnAnnuler"
+        android:layout_alignParentRight="true"
+        android:text="txtDateEtHeure" />
+
+    <Button
+        android:id="@+id/btnAnnuler"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="29dp"
+        android:layout_toRightOf="@+id/lblNumeroDePlace"
+        android:text="@string/butAnnuler" />
+
+    <Button
+        android:id="@+id/btnConfirmer"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnAnnuler"
+        android:layout_alignBottom="@+id/btnAnnuler"
+        android:layout_toRightOf="@+id/btnAnnuler"
+        android:text="@string/butConfirmer" />
+
+    <TextView
+        android:id="@+id/lblCout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lblTarif"
+        android:layout_toLeftOf="@+id/txtCout"
+        android:text="@string/lblCout" />
+
+    <TextView
+        android:id="@+id/txtCout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblCout"
+        android:layout_alignBottom="@+id/lblCout"
+        android:layout_alignLeft="@+id/txtTarif"
+        android:layout_alignParentRight="true"
+        android:text="txtCout" />
+
+    <TextView
+        android:id="@+id/txtEtat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/lblCout"
+        android:layout_marginTop="26dp"
+        android:text="txtEtat" />
+
+    <TextView
+        android:id="@+id/txtHeureFin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lblTarif"
+        android:layout_alignLeft="@+id/txtHeureDebut"
+        android:layout_alignParentRight="true"
+        android:text="txtHeureFin" />
+
+    <TextView
+        android:id="@+id/txtHeureDebut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtHeureFin"
+        android:layout_alignLeft="@+id/timePicker1"
+        android:layout_alignParentRight="true"
+        android:text="txtHeureDebut" />
+
+    <TextView
+        android:id="@+id/lblHeureDebut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtHeureFin"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/lblHeureFin"
+        android:text="@string/lblHeureDebut" />
+
+</RelativeLayout>
